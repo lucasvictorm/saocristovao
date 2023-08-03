@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(184, 2, 2);
+    height: 100px;
+    
+    padding: 5px;
+   
+}
+header nav{
+   margin-left: 800px;
+   margin-top: -25px;
+}
+
+header nav a{
+    margin-left: 60px;
+    
+ }
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header img{
+    margin-top: -20px;
+}
+
+#titulo{
+    
+    width: 600px;
+    
+}
+#titulo h1{
+    margin-left: 150px;
+    margin-top: -100px;
+    
+}
+
+main{
+    background-color: white;
+    
+}
+footer{
+    text-align: center;
+    background-color: rgb(184, 2, 2);
+    height: 60px;
+    color: #ffffff;
+}
+
+footer p{
+    padding: 10px;
+    text-align: center;
+}
+
+#sao-cristovao-logo{
+    width: 150px;
+    
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+p{
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+
+
+
+
+}
+li{
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+    
+
+
+
+
+}
+main a{
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    color: rgb(184, 2, 2);
+    text-decoration: none;
+ }

@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(184, 2, 2);
+    height: 100px;
+    
+    padding: 5px;
+   
+}
+header nav{
+   margin-left: 800px;
+   margin-top: -25px;
+}
+
+header nav a{
+    margin-left: 60px;
+    
+ }
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header img{
+    margin-top: -20px;
+}
+
+#titulo{
+    
+    width: 600px;
+    
+}
+#titulo h1{
+    margin-left: 150px;
+    margin-top: -100px;
+    
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    padding: 10px;
+}
+
+main{
+    background-color: white;
+    
+}
+
+footer{
+    margin-top: 185px;
+    text-align: center;
+    background-color: rgb(184, 2, 2);
+    height: 60px;
+    color: #ffffff;
+}
+
+footer p{
+	padding: 10px;
+    text-align: center;
+}
+
+#sao-cristovao-logo{
+    width: 150px;
+    
+}
+
+#foto-boi{
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+.botao{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(184, 2, 2);
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+#tipos-carne{
+    margin: 20px;
+    text-align: center;
+}
+
+#lista-carnes{
+    width: 200px;
+    margin: auto;
+}
+
+li{
+    font-size: 1em;
+    font-weight: bold;
+}

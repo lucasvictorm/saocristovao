@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Bovino</title>
+    <link rel="stylesheet" href="style-mapa-boi.css">
+</head>
+<body>
+    <header>
+    <div id="titulo">
+        <a href="index.html">
+        <img src="imagens/saocristovaopng.png" alt="Logo São Cristóvão" id="sao-cristovao-logo">
+        <h1>AÇOUGUE SÃO CRISTÓVÃO</h1>
+    </a>
+    </div>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="mapa-boi.html">Mapa Bovino</a>
+        <a href="contatos.html">Contatos</a>
+    </nav>
+    </header>
+    <main>
+        <img src="imagens/boi png.png" alt="Boi particionado" id="foto-boi">
+        <div id="tipos-carne">
+            <h2>Classe da Carne</h2>
+            <button class="botao" onclick="primeiraClasse()">Primeira</button>
+            <button class="botao" onclick="segundaClasse()">Segunda</button>
+            <button class="botao" onclick="terceiraClasse()">Terceira</button>
+        </div>
+        <p id="lista-carnes">
+
+        </p>
+        <footer>
+            <p>Todos os direitos Reservados.</p>
+        </footer>
+        
+        <p id="lista-carnes">
+
+        </p>
+    </main>
+    <script>
+        let caixa = document.getElementById("lista-carnes");
+        function primeiraClasse(){
+            caixa.innerHTML = `<ul>
+                <li>12 - Filé Mignon</li>
+                <li>13 - Contra-Filé</li>
+                <li>14 - Picanha</li>
+                <li>15 - Acatra</li>
+                <li>16 - Maminha</li>
+                <li>17 - Coxão Mole</li>
+                <li>18 - Patinho</li>
+                <li>21 - Lagarto</li></ul>`
+        }
+
+        function segundaClasse(){
+            caixa.innerHTML = `<ul><li>3 - Cupim</li>
+                <li>4 - Acém</li>
+                <li>5 - Braço</li>
+                <li>7 - Capa de filé</li>
+                <li>8 - Noix</li>
+                <li>9 - Aba de filé</li>
+                <li>11 - Fraldinha</li>
+                <li>19 - Coxão duro</li>
+                </ul>`
+        }
+
+        function terceiraClasse(){
+            caixa.innerHTML = `<ul><li>1 - Pescoço</li>
+                <li>2 - Peito</li>
+                <li>5 - Braço</li>
+                <li>6 - Ossobuco</li>
+                <li>10 - Ponta de agulha</li>
+                <li>20 - Ossobuco</li>
+                
+                </ul>`
+        }
+    </script>
+</body>
+</html>
